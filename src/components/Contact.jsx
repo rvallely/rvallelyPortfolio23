@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 import { colourPaletteImageColourMap } from '../content/colourPaletteImageColourMap';
-import { REST_API_ID } from '../env';
 
 function Contact () {
     const [name, setName] = useState('');
@@ -14,7 +13,7 @@ function Contact () {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`https://${REST_API_ID}.execute-api.eu-west-2.amazonaws.com/default/sendEmail`, {
+            const response = await fetch(`https://${process.env.REST_API_ID}.execute-api.eu-west-2.amazonaws.com/default/sendEmail`, {
                 method: 'POST',
                 body: JSON.stringify({
                     senderName: name,
