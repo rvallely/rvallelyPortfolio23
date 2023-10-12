@@ -16,14 +16,14 @@ const projectContent = Object.freeze({
                 Having completed Codecademy&apos;s <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.codecademy.com/learn/discrete-math'>Discrete Maths course</a> and further explored topics like <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/watch?v=pcJHkWwjNl4'>sorting algorithms</a> and <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/watch?v=kgBjXUE_Nwc'>Big O Notation</a>, I wanted to test my understanding of the concepts by applying them. Other topics covered in my study included permutations and combinations, set theory and congruence.
                 <br></br>
                 <br></br>
-                The app is written in JavaScript and is hosted on Heroku. A particular point of challenge and ultimately triumph, was working out how to dynamically generate the x and y coordinates of the nodes on the <a className='link' target="_blank" rel="noopener noreferrer" href='TODO.com'>Quicksort sorting algorithm diagram</a>, so that they didn&apos;t overlap in longer lists. I plan to keep adding topics to this app in the future as I enjoy learning things that progress my understanding and make me a more effective developer.
+                The app is written in JavaScript and is hosted on Heroku. A particular point of challenge and ultimately triumph, was working out how to dynamically generate the x and y coordinates of the nodes on the <a className='link' target="_blank" rel="noopener noreferrer" href='https://discrete-maths-exploration.netlify.app/sorting-algorithms/quick-sort'>Quicksort sorting algorithm diagram</a>, so that they didn&apos;t overlap in longer lists. I plan to keep adding topics to this app in the future as I enjoy learning things that progress my understanding and make me a more effective developer.
             </p>
         ),
         PROJECT_TILE: discreteMathsProjectTile,
         IMAGE: <img style={{ border: 'solid', borderWidth: '2px' }} className='rounded-box' src={discreteMathsProjectTile} alt='still from Discrete Maths website' width='90%'></img>,
         HOSTED_APP_LINK: {
             displayText: 'Go to the app',
-            link: 'TODO.com',
+            link: 'https://discrete-maths-exploration.netlify.app/home',
         },
         SOURCE_CODE: {
             frontend: 'https://github.com/rvallely/fe-discrete-maths-exploration',

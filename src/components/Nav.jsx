@@ -147,6 +147,7 @@ function Nav ({selectedItem}) {
             ].map(({ displayText, path }) => {
                 return <li className='nav-item-container'><Link to={path} className={(selectedItem === displayText ? 'selected-nav-item ': 'unselected-nav-item ') + 'nav-item rounded-box'}>{displayText}</Link></li>
             })}
+            {/* TODO: does colour selector need to be more obvious? (Maybe add 'Prefer a different colour palette?' label) */}
             <li>
                 <div className='square-container'>
                     <div className='square pink-red-split rounded-box btn' value='pink-red-colour-palette' onClick={handleColourChange}>
