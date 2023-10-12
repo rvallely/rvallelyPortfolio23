@@ -32,28 +32,28 @@ function Home() {
         <img
           id='shape1'
           src={shape1}
-          height='90%'
+          height='85.5%'
           alt='Geometric Structures 1'
           className='drift-in-from-left'
         />
         <img
           id='shape2'
           src={shape2}
-          height='72%'
+          height='68.4%'
           alt='Geometric Structures 2'
           className='drift-in-from-bottom'
         />
           <img
           id='shape3'
           src={shape3}
-          height='90%'
+          height='85.5%'
           alt='Geometric Structures 3'
           className='drift-in-from-right'
         />
           <img
           id='shape4'
           src={shape4}
-          height='71%'
+          height='67.45%'
           alt='Geometric Structures 4'
           className='drift-in-from-top'
         />

@@ -48,7 +48,7 @@ html {
 }
 
 .title-detail {
-  font-size: 7rem;
+  font-size: 6rem;
   margin-bottom: 0px;
   margin-top: 20px;
 }
@@ -222,7 +222,7 @@ ul.nav li a:hover {
 
 .lead-text {
   text-align: center;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: 10px;
@@ -276,7 +276,7 @@ ul.nav li a:hover {
 
 .drift-in-from-left {
   position: absolute;
-  bottom: 2%;
+  bottom: 3%;
   left: -50%;
   animation: driftInFromLeftAnimation 3s ease-in-out forwards;
 }
@@ -286,13 +286,13 @@ ul.nav li a:hover {
     left: -50%; 
   }
   100% {
-    left: 15%;
+    left: 16.5%;
   }
 }
 
 .drift-in-from-right {
   position: absolute;
-  bottom: 2%;
+  bottom: 3%;
   right: -50%; 
   animation: driftInFromRightAnimation 3s ease-in-out forwards;
 }
@@ -302,7 +302,7 @@ ul.nav li a:hover {
     right: -50%;
   }
   100% {
-    right: 27%;
+    right: 27.5%;
   }
 }
 
@@ -310,7 +310,7 @@ ul.nav li a:hover {
 .drift-in-from-bottom {
   position: absolute;
   bottom: -50%;
-  left: 33%;
+  left: 34%;
   animation: driftInFromBottomAnimation 3s ease-in-out forwards;
 }
 
@@ -319,14 +319,14 @@ ul.nav li a:hover {
     bottom: -50%;
   }
   100% {
-    bottom: 2%;
+    bottom: 3%;
   }
 }
 
 .drift-in-from-top {
   position: absolute;
   top: -50%;
-  right: 14.5%;
+  right: 16.5%;
   animation: driftInFromTopAnimation 3s ease-in-out forwards;
   animation-fill-mode: forwards; 
 }
@@ -336,7 +336,7 @@ ul.nav li a:hover {
     top: -50%;
   }
   100% {
-    top: 20%;
+    top: 23%;
   }
 }
 
