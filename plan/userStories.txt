@@ -1,0 +1,49 @@
+Components
+
+Colour palette picker
+
+Home
+  ColourPalettePicker
+  name
+  statement
+  shortened Nav
+  geometric structures
+
+Nav
+
+Projects
+  ColourPalettePicker
+  ProjectDetail
+    Image
+    Title in circle
+
+ProjectPage
+  ColourPalettePicker
+  Title
+  Project pitch
+  Tech write up
+  Image (or two)
+  hosted app link
+  source code links
+  other links?
+
+About me
+  ColourPalettePicker
+  Title in circle
+
+CV
+  ColourPalettePicker
+  PdfCV
+  Download button
+  couple of geometric structures
+
+GetInTouch
+  ColourPalettePicker
+  Title in circle
+  Geometric structures
+  Contact Form
+    name input 
+    email address input
+    message box
+    send button
+    --> email rosievallely@hotmail.com
