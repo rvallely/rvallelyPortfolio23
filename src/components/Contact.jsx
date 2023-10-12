@@ -13,7 +13,7 @@ function Contact () {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await fetch(`https://${process.env.REST_API_ID}.execute-api.eu-west-2.amazonaws.com/default/sendEmail`, {
+            const response = await fetch(`https://${process.env.REACT_APP_REST_API_ID}.execute-api.eu-west-2.amazonaws.com/default/sendEmail`, {
                 method: 'POST',
                 body: JSON.stringify({
                     senderName: name,
