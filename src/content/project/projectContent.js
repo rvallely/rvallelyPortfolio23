@@ -10,13 +10,13 @@ const projectContent = Object.freeze({
         NAME: 'Discrete Maths (Aug - Oct 2023)',
         DESCRIPTION: (
             <p className='project-description'>
-                Discrete Maths is an educational resource on the topic of Discrete Mathematics, much like <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.mathsisfun.com'>mathisfun.com</a> or <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.bbc.co.uk/bitesize'>BBC Bitesize</a>. I began the exploring the topic because I wanted to get a deeper understanding of the what was going on behind the scenes when I was building apps.
+                Discrete Maths is an educational resource on the topic of Discrete Mathematics, much like <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.mathsisfun.com'>mathisfun.com</a> or <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.bbc.co.uk/bitesize'>BBC Bitesize</a>. I began exploring the topic because I wanted to get a deeper understanding of what was going on behind the scenes when I was building apps.
                 <br></br>
                 <br></br>
                 Having completed Codecademy&apos;s <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.codecademy.com/learn/discrete-math'>Discrete Maths course</a> and further explored topics like <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/watch?v=pcJHkWwjNl4'>sorting algorithms</a> and <a className='link' target="_blank" rel="noopener noreferrer" href='https://www.youtube.com/watch?v=kgBjXUE_Nwc'>Big O Notation</a>, I wanted to test my understanding of the concepts by applying them. Other topics covered in my study included permutations and combinations, set theory and congruence.
                 <br></br>
                 <br></br>
-                The app is written in JavaScript and is hosted on Heroku. A particular point of challenge and ultimately triumph, was working out how to <a  className='link' target="_blank" rel="noopener noreferrer" href='https://github.com/rvallely/fe-discrete-maths-exploration/blob/main/src/components/SortingAlgorithms/QuickSortProcess.jsx'>dynamically generate the x and y coordinates</a> of the nodes on the <a className='link' target="_blank" rel="noopener noreferrer" href='https://discrete-maths-exploration.netlify.app/sorting-algorithms/quick-sort'>Quicksort sorting algorithm diagram</a>, so that they didn&apos;t overlap in longer lists. I plan to keep adding topics to this app in the future as I enjoy learning things that progress my understanding and make me a more effective developer.
+                The app is written in JavaScript and is hosted on Render. A particular point of challenge and ultimately triumph, was working out how to <a  className='link' target="_blank" rel="noopener noreferrer" href='https://github.com/rvallely/fe-discrete-maths-exploration/blob/main/src/components/SortingAlgorithms/QuickSortProcess.jsx'>dynamically generate the x and y coordinates</a> of the nodes on the <a className='link' target="_blank" rel="noopener noreferrer" href='https://discrete-maths-exploration.netlify.app/sorting-algorithms/quick-sort'>Quicksort sorting algorithm diagram</a>, so that they didn&apos;t overlap in longer lists. I plan to keep adding topics to this app in the future as I enjoy learning things that progress my understanding and make me a more effective developer.
             </p>
         ),
         PROJECT_TILE: discreteMathsProjectTile,
@@ -63,7 +63,7 @@ const projectContent = Object.freeze({
         NAME: 'The Mortgage Booth (Sep - present 2023)',
         DESCRIPTION: (
             <p className='project-description'>
-               The Mortgage Booth is the first freelance project I've taken on. Teaming up with a partner, we are building a website tailored to meet the needs of our client's mortgage brokerage business. My role on the project is primarily on the backend, but I'm hoping to complete some frontend features along the way too. 
+               The Mortgage Booth is the first freelance project I've taken on. Teaming up with a partner, I am building a website tailored to meet the needs of our client's mortgage brokerage business. My role on the project is primarily on the backend, but I'm hoping to complete some frontend features along the way too. 
             <br></br>
             <br></br>
 The project is being written in TypeScript and has multiple requirements. Our client wanted a unified platform that could serve a variety of purposes. It needed to serve as a promotional hub for the company, offer users access to repayment and stress test calculators, provide brokers with a portal to manage their cases, and offer customers a secure space to track their mortgage applications and communicate with their brokers.
