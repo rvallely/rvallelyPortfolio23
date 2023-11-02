@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from './Nav';
 import { colourPaletteImageColourMap } from '../content/colourPaletteImageColourMap';
 
-export function About() {
+function About() {
     const currentImageColour = document.documentElement.style.getPropertyValue('--image-colour');
 
     const {

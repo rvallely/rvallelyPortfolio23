@@ -24,7 +24,10 @@ function ProjectPage ({projectData: { NAME, DESCRIPTION, IMAGE, HOSTED_APP_LINK,
                 <h2 style={{ paddingLeft : '0px'}}>
                     {HOSTED_APP_LINK
                     ?
-                    <a className='link' target="_blank" rel="noopener noreferrer" href={HOSTED_APP_LINK.link}>{HOSTED_APP_LINK.displayText}</a>
+                    <div>
+                        <a className='link' target="_blank" rel="noopener noreferrer" href={HOSTED_APP_LINK.link}>{HOSTED_APP_LINK.displayText}</a>
+                        {HOSTED_APP_LINK.additionalInfo &&  <p>{HOSTED_APP_LINK.additionalInfo}</p>}
+                    </div>
                     :
                     <p>🏗️ Under construction, link coming soon... 🏗️</p>
                     }

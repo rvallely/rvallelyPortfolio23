@@ -111,7 +111,6 @@ html {
   width: calc(50% - 20px); 
   margin-bottom: 20px; 
   box-sizing: border-box;
-  border: 'solid yellow';
 }
 
 .form {
