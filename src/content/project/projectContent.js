@@ -119,7 +119,7 @@ Communication both with the client and between me and my project partner has bee
                 Part of what makes media so impactful is not just that it touches us, but that we can share this with others and in doing so share a little bit of ourselves too.
                 <br></br>
                 <br></br>
-                In the time of streaming giants and binge watching, the amount of media we consume is arguably the most it has ever been. This a gift for media lovers, but also leads to overload and an inability to retain all the media gems you've found.
+                In the time of streaming giants and binge watching, the amount of media we consume is arguably the most it has ever been. This is a gift for media lovers, but also leads to overload and an inability to retain all the media gems you've found.
                 <br></br>
                 <br></br>
                 'What Ya Been Watching?' gives users the ability to document their media history, track trends in their watching across all streaming platforms and find new content along the way. 
