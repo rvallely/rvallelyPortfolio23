@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from './Nav';
-import RosieVallelyCv2023 from '../assets/RosieVallelyCv2023.pdf';
+import RosieVallelyCv2023 from '../assets/rosie_vallely_cv_2023.pdf';
 
 function Cv () {
     return (
